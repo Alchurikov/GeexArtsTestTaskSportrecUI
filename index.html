@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Спортивная Организация Алтайского Края</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <div class="header__left">
+            <a href="#" class="header__logo">
+              <img
+                src="images/Logo.png"
+                class="header__logo-img"
+                alt="SportRec Logo"
+              />
+            </a>
+            <ul class="header__menu">
+              <li>
+                <a href="#" class="header__menu-item header__menu-item--active">
+                  <img src="images/HouseIcon.svg" alt="House" />
+                  Лента
+                </a>
+              </li>
+              <li>
+                <a href="#" class="header__menu-item">
+                  <img src="images/BagIcon.svg" alt="Marketplace" />
+                  Маркетплейс
+                </a>
+              </li>
+              <li>
+                <a href="#" class="header__menu-item">
+                  <img src="images/PeopleIcon.svg" alt="Rating" />
+                  Рейтинги
+                </a>
+              </li>
+              <li>
+                <a href="#" class="header__menu-item">
+                  <img src="images/CupIcon.svg" alt="Competitions" />
+                  Соревнования
+                </a>
+              </li>
+              <li>
+                <a href="#" class="header__menu-item">
+                  <img src="images/BankIcon.svg" alt="Organizations" />
+                  Организации
+                </a>
+              </li>
+              <li>
+                <a href="#" class="header__menu-item">
+                  <img src="images/RadioIcon.svg" alt="Live" />
+                  Live
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__controls">
+            <button class="header__lang">
+              <img
+                src="images/RuFlag.svg"
+                alt="Language"
+                class="header__lang-flag"
+              />
+              <span>RU</span>
+              <img
+                src="images/ArrowDown.svg"
+                alt="Arrow Down"
+                class="header__lang-arrow"
+              />
+            </button>
+            <button class="header__notification">
+              <img src="images/BellIcon.svg" alt="Notifications" />
+            </button>
+            <button class="header__profile">
+              <img
+                src="images/Photo1.png"
+                alt="Profile"
+                class="header__profile-avatar"
+              />
+              <img
+                src="images/ArrowDown.svg"
+                alt="Arrow Down"
+                class="header__profile-arrow"
+              />
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div class="main__wrapper">
+          <!-- Left content -->
+          <div class="main__content">
+            <section class="profile">
+              <div class="profile__banner">
+                <div class="profile__banner-image"></div>
+              </div>
+              <div class="profile__content">
+                <div class="profile__header">
+                  <div class="profile__photo-container">
+                    <img
+                      src="images/SportOrgLogo.png"
+                      alt="Organization Profile Photo"
+                      class="profile__photo"
+                    />
+                    <img
+                      src="images/CircleRuFlag.svg"
+                      alt="Profile Badge"
+                      class="profile__badge"
+                    />
+                  </div>
+                  <div class="profile__rank">
+                    <img src="images/ArrowUp.svg" alt="Rank Icon" />
+                    <span>№2</span>
+                  </div>
+                </div>
+
+                <div class="profile__info">
+                  <h1 class="profile__name">
+                    Спортивная Организация Алтайского Края
+                    <img
+                      src="images/CheckIcon.svg"
+                      alt="Verified Organization"
+                    />
+                  </h1>
+
+                  <div class="profile__meta">
+                    <div class="profile__location">
+                      <img src="images/ArrowMapIcon.svg" alt="Location Icon" />
+                      <span class="profile__meta-text">Алтайский край</span>
+                    </div>
+                    <span class="profile__meta-text">Грэпплинг</span>
+                    <span class="profile__meta-text">Греко-римская борьба</span>
+                    <span class="profile__meta-text">Пляжная борьба</span>
+                  </div>
+
+                  <div class="profile__stats">
+                    <div class="profile__stat">
+                      <img
+                        src="images/Photo2.png"
+                        alt="Athletes Icon"
+                        class="profile__stat-icon"
+                      />
+                      <img
+                        src="images/Photo3.png"
+                        alt="Athletes Icon"
+                        class="profile__stat-icon"
+                      />
+                      <img
+                        src="images/Photo4.png"
+                        alt="Athletes Icon"
+                        class="profile__stat-icon"
+                      />
+                      <div>
+                        <span class="profile__stat-value">45</span>
+                        <span class="profile__stat-label">Спортсменов</span>
+                      </div>
+                    </div>
+                    <div class="profile__stat">
+                      <span class="profile__stat-value">125</span>
+                      <span class="profile__stat-label">Подписчиков</span>
+                    </div>
+                    <div class="profile__stat">
+                      <span class="profile__stat-value">12</span>
+                      <span class="profile__stat-label">Лиг</span>
+                    </div>
+                  </div>
+
+                  <div class="profile__medals">
+                    <div class="profile__medal">
+                      <div class="profile__medal--gold"></div>
+                      <span>12</span>
+                    </div>
+                    <div class="profile__medal">
+                      <div class="profile__medal--silver"></div>
+                      <span>4</span>
+                    </div>
+                    <div class="profile__medal">
+                      <div class="profile__medal--bronze"></div>
+                      <span>19</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="profile__actions">
+                  <button class="btn btn--primary">Подписаться</button>
+                  <button class="btn btn--secondary">Подробнее</button>
+                  <button class="btn btn--icon">
+                    <img src="images/ShareIcon.svg" alt="Share" />
+                  </button>
+                </div>
+
+                <nav class="profile__tabs">
+                  <a
+                    href="#competitions"
+                    class="profile__tab profile__tab--active"
+                    >Соревнования</a
+                  >
+                  <a href="#results" class="profile__tab">Результаты</a>
+                  <a href="#news" class="profile__tab">Новости</a>
+                </nav>
+              </div>
+            </section>
+
+            <section class="competitions">
+              <div class="competitions__header">
+                <h1 class="competitions__title">Соревнования</h1>
+                <div class="competitions__tabs">
+                  <div class="competitions__tab competitions__tab--active">
+                    <span>Предстоящие</span>
+                    <span>2</span>
+                  </div>
+                  <div class="competitions__tab">
+                    <span>Текущие</span>
+                    <span class="competitions__tab-count">2</span>
+                  </div>
+                  <div class="competitions__tab">
+                    <span>Прошедшие</span>
+                    <span class="competitions__tab-count">367</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="competitions__list">
+                <h2 class="competitions__time-section">На этой неделе</h2>
+
+                <div class="competition-card">
+                  <img
+                    src="images/Fight1.png"
+                    alt="Competition venue"
+                    class="competition-card__image"
+                  />
+                  <div class="competition-card__details">
+                    <div class="competition-card__meta">
+                      <div>
+                        <div class="competition-card__info">
+                          <img
+                            src="images/Calendar.svg"
+                            alt=""
+                            class="competition-card__icon"
+                          />
+                          <span>17 Марта, 14:00</span>
+                        </div>
+                        <div class="competition-card__info">
+                          <img
+                            src="images/ArrowMapIcon.svg"
+                            alt=""
+                            class="competition-card__icon"
+                          />
+                          <span>Москва, Россия</span>
+                        </div>
+                        <span class="competition-card__info">5 матчей</span>
+                      </div>
+                      <img src="images/GrayBellIcon.svg" alt="Bell" />
+                    </div>
+
+                    <h3 class="competition-card__title">
+                      Первенство Московской области по спортивной борьбе
+                      (вольная борьба) среди юниоров до 24 лет
+                    </h3>
+
+                    <div class="competition-card__participants">
+                      <div class="competition-card__avatars">
+                        <img
+                          src="images/Photo2.png"
+                          alt=""
+                          class="competition-card__avatar"
+                        />
+                        <img
+                          src="images/Photo3.png"
+                          alt=""
+                          class="competition-card__avatar"
+                        />
+                        <img
+                          src="images/Photo4.png"
+                          alt=""
+                          class="competition-card__avatar"
+                        />
+                      </div>
+                      <div class="competition-card__count">
+                        <span class="competition-card__count-value">167</span>
+                        <span>Участников</span>
+                      </div>
+                    </div>
+
+                    <div class="competition-card__actions">
+                      <button class="btn btn--tertiary">
+                        <img src="images/HandIcon.svg" alt="" />
+                        Принять участие
+                      </button>
+                      <button class="btn btn--tertiary">
+                        <img src="images/CardIcon.svg" alt="" />
+                        Купить билет
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <h2 class="competitions__time-section">На следующей неделе</h2>
+
+                <div class="competition-card">
+                  <img
+                    src="images/Fight2.png"
+                    alt="Competition venue"
+                    class="competition-card__image"
+                  />
+                  <div class="competition-card__details">
+                    <div class="competition-card__meta">
+                      <div>
+                        <div class="competition-card__info">
+                          <img
+                            src="images/Calendar.svg"
+                            alt=""
+                            class="competition-card__icon"
+                          />
+                          <span>21 Февраля, 08:30</span>
+                        </div>
+                        <div class="competition-card__info">
+                          <img
+                            src="images/ArrowMapIcon.svg"
+                            alt=""
+                            class="competition-card__icon"
+                          />
+                          <span>Москва, Россия</span>
+                        </div>
+                        <span class="competition-card__info">10 матчей</span>
+                      </div>
+                      <img src="images/GrayBellIcon.svg" alt="Bell" />
+                    </div>
+
+                    <h3 class="competition-card__title">
+                      Соревновании по греко-римской больбе среди юношей до 16
+                      лет памяти ЗТСССР В.А.Бормана в честь дня рождения
+                    </h3>
+
+                    <div class="competition-card__participants">
+                      <div class="competition-card__avatars">
+                        <img
+                          src="images/Photo2.png"
+                          alt=""
+                          class="competition-card__avatar"
+                        />
+                        <img
+                          src="images/Photo3.png"
+                          alt=""
+                          class="competition-card__avatar"
+                        />
+                        <img
+                          src="images/Photo4.png"
+                          alt=""
+                          class="competition-card__avatar"
+                        />
+                      </div>
+                      <div class="competition-card__count">
+                        <span>24</span>
+                        <span>Участников</span>
+                      </div>
+                    </div>
+
+                    <div class="competition-card__actions">
+                      <button class="btn btn--tertiary">
+                        <img src="images/HandIcon.svg" alt="" />
+                        Принять участие
+                      </button>
+                      <button class="btn btn--tertiary">
+                        <img src="images/CardIcon.svg" alt="" />
+                        Купить билет
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Media section -->
+            <section class="media">
+              <div class="media__tabs">
+                <button class="media__tab media__tab--active">
+                  Трансляции
+                  <span>4</span>
+                </button>
+                <button class="media__tab">
+                  Фото
+                  <span class="media__tab-count">14</span>
+                </button>
+                <button class="media__tab">
+                  Видео
+                  <span class="media__tab-count">35</span>
+                </button>
+              </div>
+
+              <div class="media__nav">
+                <div class="media__nav-container">
+                  <button class="media__nav-button media__nav-button">
+                    <img src="images/SliderArrowLeft.svg" alt="Previous" />
+                  </button>
+                  <button class="media__nav-button media__nav-button">
+                    <img src="images/SliderArrowRight.svg" alt="Next" />
+                  </button>
+                </div>
+              </div>
+
+              <div class="media__grid">
+                <article class="media__card">
+                  <img
+                    src="images/WomanFight.png"
+                    alt="Stream thumbnail"
+                    class="media__card-image"
+                  />
+                  <div class="media__card-badge">В эфире</div>
+                  <div class="media__card-content">
+                    <h3 class="media__card-title">
+                      День 6, Ковер C | Первенство Европы по спортивной борьбе
+                      U-23| 20-26 мая, Баку (Азербайджан).
+                    </h3>
+                    <div class="media__card-meta">
+                      <div class="media__card-org">
+                        <img
+                          src="images/SportOrgLogo.png"
+                          alt=""
+                          class="media__card-logo"
+                        />
+                        <div class="media__card-info">
+                          <div class="media__card-name">
+                            Спортивная Организация Алтайского Края
+                          </div>
+                          <div class="media__card-stats">
+                            <img src="images/EyeIcon.svg" alt="" />
+                            <span>82 тыс.</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="media__card">
+                  <img
+                    src="images/WomanFight.png"
+                    alt="Stream thumbnail"
+                    class="media__card-image"
+                  />
+                  <div class="media__card-paid">
+                    <img src="images/BankNoteIcon.svg" alt="" />
+                    Платный эфир
+                  </div>
+                  <div class="media__card-content">
+                    <h3 class="media__card-title">
+                      День 7, Ковер C | Первенство Европы по спортивной борьбе
+                      U-23| 20-26 мая, Баку (Азербайджан).
+                    </h3>
+                    <div class="media__card-meta">
+                      <div class="media__card-org">
+                        <img
+                          src="images/SportOrgLogo.png"
+                          alt=""
+                          class="media__card-logo"
+                        />
+                        <div class="media__card-info">
+                          <div class="media__card-name">
+                            Спортивная Организация Алтайского Края
+                          </div>
+                          <div class="media__card-stats">
+                            <img src="images/EyeIcon.svg" alt="" />
+                            <span>120 тыс.</span>
+                            <span>4 дня назад</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="media__footer">
+                <div class="media__pagination">
+                  <button class="media__page" aria-label="Page 1"></button>
+                  <button
+                    class="media__page media__page--active"
+                    aria-label="Page 2"
+                  ></button>
+                  <button class="media__page" aria-label="Page 3"></button>
+                  <button class="media__page" aria-label="Page 4"></button>
+                  <button class="media__page" aria-label="Page 5"></button>
+                </div>
+                <a href="#" class="media__more">
+                  Смотреть все
+                  <img src="images/ArrowRight.svg" alt="" />
+                </a>
+              </div>
+            </section>
+          </div>
+
+          <!-- Right sidebar -->
+          <aside class="sidebar">
+            <!-- Rating section -->
+            <div class="sidebar__section rating">
+              <h2 class="rating__title-main">Рейтинг организации</h2>
+              <div class="rating__chart">
+                <img
+                  src="images/Rating.png"
+                  alt="Rating Chart"
+                  class="rating__chart-image"
+                />
+              </div>
+              <div class="rating__status">
+                <h3 class="rating__title-status">Рейтинг: Очень высокий</h3>
+                <p class="rating__description">
+                  Спортивная организация показывает достойные результаты на
+                  соревнованиях и в коммерции, а также за последний год
+                  стабильно поднимается в рейтинге.
+                </p>
+              </div>
+            </div>
+
+            <!-- Management section -->
+            <div class="sidebar__section management">
+              <div class="management__header">
+                <h2 class="management__title">Руководство</h2>
+
+                <div class="management__controls">
+                  <a href="#" class="management__link">Смотреть все </a>
+                  <img src="images/ArrowRight.svg" alt="Arrow Right" />
+                </div>
+              </div>
+              <ul class="management__list">
+                <li class="management__item">
+                  <img
+                    src="images/Person1.png"
+                    alt=""
+                    class="management__avatar"
+                  />
+                  <div class="management__info">
+                    <h3 class="management__name">Дмитрий Пономарев</h3>
+                    <p class="management__position">Президент ФНТР</p>
+                  </div>
+                </li>
+                <li class="management__item">
+                  <img
+                    src="images/Person2.png"
+                    alt=""
+                    class="management__avatar"
+                  />
+                  <div class="management__info">
+                    <h3 class="management__name">Кристина Козлова</h3>
+                    <p class="management__position">Вице-президент ФНТР</p>
+                  </div>
+                </li>
+                <li class="management__item">
+                  <img
+                    src="images/Person3.png"
+                    alt=""
+                    class="management__avatar"
+                  />
+                  <div class="management__info">
+                    <h3 class="management__name">Андрей Козлов</h3>
+                    <p class="management__position">
+                      Первый вице-президент, генеральный директор ФНТР
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Athletes section -->
+            <div class="sidebar__section athletes">
+              <div class="athletes__header">
+                <h2 class="athletes__title">Спортсмены</h2>
+                <div class="athletes__controls">
+                  <a href="#" class="athletes__link">Смотреть все</a>
+                  <img src="images/ArrowRight.svg" alt="Arrow Right" />
+                </div>
+              </div>
+
+              <div class="athletes__tabs">
+                <div class="athletes__gender-tabs">
+                  <button
+                    class="athletes__gender-tab athletes__gender-tab--active"
+                  >
+                    Мужчины
+                  </button>
+                  <button class="athletes__gender-tab">Женщины</button>
+                </div>
+
+                <div class="athletes__weight-categories">
+                  <button
+                    class="athletes__weight-tag athletes__weight-tag--active"
+                  >
+                    57 kg
+                  </button>
+                  <button class="athletes__weight-tag">61 kg</button>
+                  <button class="athletes__weight-tag">70 kg</button>
+                  <button class="athletes__weight-tag">74 kg</button>
+                  <button class="athletes__weight-tag">...</button>
+                </div>
+              </div>
+
+              <div class="athletes__rankings">
+                <div class="athletes__top-athlete">
+                  <span class="athletes__rank-number">№1</span>
+                  <span class="athletes__points">12 031 очков</span>
+
+                  <div class="athletes__info">
+                    <img
+                      src="images/Athlete1.png"
+                      alt=""
+                      class="athletes__photo"
+                    />
+                    <div class="athletes__details">
+                      <div class="athletes__name-wrapper">
+                        <span class="athletes__name"
+                          >Константин Ковалевский</span
+                        >
+                        <img
+                          src="images/CrownIcon.svg"
+                          alt=""
+                          class="athletes__crown"
+                        />
+                      </div>
+                      <p class="athletes__achievements">
+                        Призер Олимпийских игр, двукратный призер чемпионат...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="athletes__table">
+                  <div class="athletes__table-header">
+                    <div class="athletes__header-rank">№</div>
+                    <div class="athletes__header-athlete">Спортсмен</div>
+                    <div class="athletes__header-points">Рейтинг</div>
+                  </div>
+
+                  <div class="athletes__list">
+                    <div class="athletes__item">
+                      <div class="athletes__rank">
+                        <span>2</span>
+                        <img
+                          src="images/ArrowUp.svg"
+                          width="10"
+                          height="12"
+                          alt=""
+                        />
+                      </div>
+                      <div class="athletes__athlete">
+                        <div class="athletes__photo-wrapper">
+                          <img
+                            src="images/Athlete2.png"
+                            alt=""
+                            class="athletes__photo"
+                          />
+                          <div
+                            class="athletes__medal athletes__medal--gold"
+                          ></div>
+                        </div>
+                        <div class="athletes__details">
+                          <div class="athletes__name">Вадим Давыдов</div>
+                          <p class="athletes__facts">
+                            Двухкратный чемпион мира
+                          </p>
+                        </div>
+                      </div>
+                      <div class="athletes__points-cell">10 031</div>
+                    </div>
+
+                    <div class="athletes__item">
+                      <div class="athletes__rank">
+                        <span>3</span>
+                        <img
+                          class="athletes__arrow"
+                          src="images/ArrowUp.svg"
+                          width="10"
+                          height="12"
+                          alt=""
+                        />
+                      </div>
+                      <div class="athletes__athlete">
+                        <div class="athletes__photo-wrapper">
+                          <img
+                            src="images/Athlete3.png"
+                            alt=""
+                            class="athletes__photo"
+                          />
+                          <div
+                            class="athletes__medal athletes__medal--bronze"
+                          ></div>
+                        </div>
+                        <div class="athletes__details">
+                          <div class="athletes__name">Александр Антонов</div>
+                          <p class="athletes__facts">
+                            Призер Олимпийских игр, двукратный призер чемп...
+                          </p>
+                        </div>
+                      </div>
+                      <div class="athletes__points-cell">7 394</div>
+                    </div>
+
+                    <div class="athletes__item">
+                      <div class="athletes__rank">
+                        <span>4</span>
+                      </div>
+                      <div class="athletes__athlete">
+                        <div class="athletes__photo-wrapper">
+                          <img
+                            src="images/Athlete4.png"
+                            alt=""
+                            class="athletes__photo"
+                          />
+                          <div
+                            class="athletes__medal athletes__medal--gray"
+                          ></div>
+                        </div>
+                        <div class="athletes__details">
+                          <div class="athletes__name">Дмитрий Пономарев</div>
+                          <p class="athletes__facts">
+                            Мастер спорта СССР международного класса,...
+                          </p>
+                        </div>
+                      </div>
+                      <div class="athletes__points-cell">2 493</div>
+                    </div>
+
+                    <div class="athletes__item">
+                      <div class="athletes__rank">
+                        <span>5</span>
+                        <img
+                          width="10"
+                          height="12"
+                          src="images/ArrowDownRed.svg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="athletes__athlete">
+                        <div class="athletes__photo-wrapper">
+                          <img
+                            src="images/Athlete5.png"
+                            alt=""
+                            class="athletes__photo"
+                          />
+                          <div
+                            class="athletes__medal athletes__medal--bronze"
+                          ></div>
+                        </div>
+                        <div class="athletes__details">
+                          <div class="athletes__name">Андрей Козлов</div>
+                          <p class="athletes__facts">
+                            Призер Олимпийских игр, двукратный призер чемп...
+                          </p>
+                        </div>
+                      </div>
+                      <div class="athletes__points-cell">2 491</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Coaches section -->
+            <div class="sidebar__section coaches">
+              <div class="coaches__header">
+                <h2 class="coaches__title">Тренеры</h2>
+                <div class="coaches__controls">
+                  <a href="#" class="coaches__link">Смотреть всех</a>
+                  <img src="images/ArrowRight.svg" alt="Arrow Right" />
+                </div>
+              </div>
+
+              <div class="coaches__rankings">
+                <div class="coaches__top-coach">
+                  <span class="coaches__rank-number">№1</span>
+                  <span class="coaches__points">12 031 очков</span>
+
+                  <div class="coaches__info">
+                    <img
+                      src="images/Coach1.png"
+                      alt=""
+                      class="coaches__photo"
+                    />
+                    <div class="coaches__details">
+                      <div class="coaches__name-wrapper">
+                        <span class="coaches__name"
+                          >Константин Ковалевский</span
+                        >
+                        <img
+                          src="images/CrownIcon.svg"
+                          alt=""
+                          class="coaches__crown"
+                        />
+                      </div>
+                      <p class="coaches__position">
+                        Заслуженный тренер Российской Федерации по ган...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="coaches__table">
+                  <div class="coaches__table-header">
+                    <div class="coaches__header-rank">№</div>
+                    <div class="coaches__header-coach">Тренер</div>
+                    <div class="coaches__header-points">Рейтинг</div>
+                  </div>
+
+                  <div class="coaches__list">
+                    <div class="coaches__item">
+                      <div class="coaches__rank">
+                        <span>2</span>
+                        <img
+                          class="coaches__arrow"
+                          src="images/ArrowUp.svg"
+                          width="10"
+                          height="12"
+                          alt=""
+                        />
+                      </div>
+                      <div class="coaches__coach">
+                        <img
+                          src="images/Coach2.png"
+                          alt=""
+                          class="coaches__photo"
+                        />
+                        <div class="coaches__details">
+                          <div class="coaches__name">Вадим Давыдов</div>
+                          <p class="coaches__facts">
+                            Тренер по греко-римской борьбе
+                          </p>
+                        </div>
+                      </div>
+                      <div class="coaches__points-cell">10 031</div>
+                    </div>
+
+                    <div class="coaches__item">
+                      <div class="coaches__rank">
+                        <span>3</span>
+                        <img
+                          class="coaches__arrow"
+                          src="images/ArrowUp.svg"
+                          width="10"
+                          height="12"
+                          alt=""
+                        />
+                      </div>
+                      <div class="coaches__coach">
+                        <img
+                          src="images/Coach3.png"
+                          alt=""
+                          class="coaches__photo"
+                        />
+                        <div class="coaches__details">
+                          <div class="coaches__name">Александр Антонов</div>
+                          <p class="coaches__facts">
+                            Тренер по греко-римской и пляжной борьбе
+                          </p>
+                        </div>
+                      </div>
+                      <div class="coaches__points-cell">7 394</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
